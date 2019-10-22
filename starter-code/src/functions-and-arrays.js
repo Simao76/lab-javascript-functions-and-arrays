@@ -1,9 +1,25 @@
 // Find the maximum
-
+const maxOfTwoNumbers = (n1, n2) => {
+if (n1 > n2) return n1;
+else if (n1 < n2) return n2;
+else if (n1 = n2) return n1;
+}
 // Finding Longest Word
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
+const findLongestWord = (something) => {
+if (something <= 0) return null
+}
+
 // Calculating a Sum
+function sumArray (arrayOfNumbers) {
+  let sum = 0;
+  for (let number of arrayOfNumbers) {
+sum += number;
+  }
+  return sum;
+}
+
 
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
@@ -91,3 +107,5 @@ const matrix = [
   [20, 73, 35, 29, 78, 31, 90, 1, 74, 31, 49, 71, 48, 86, 81, 16, 23, 57, 5, 54],
   [1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48]
 ];
+
+
